@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>聊天室</title>
+    <link rel="stylesheet" href="/static/pure-min.css">
+    <link rel="stylesheet" href="/static/bootstrap.css">
+    <link rel="stylesheet" href="/static/chat.css">
+    <script src="/static/jquery.min.js"></script>
+    <script src="/static/main.js"></script>
+ </head>
+
+ <body>
+    <div id='id-div-channels' class="rc-left">
+        <h1>聊天室</h1>
+        <a class="rc-channel" href="#">大厅</a>
+        <a class="rc-channel" href="#">游戏</a>
+        <a class="rc-channel" href="#">灌水</a>
+    </div>
+    <div class="rc-main">
+        <div id="id-div-chats">
+
+        </div>
+        <div class="rc-input">
+            <form class="pure-form pure-form-stacked">
+                <input id='id-input-name' class="rc-full-width" type="text" placeholder="名字">
+                <textarea id='id-input-content' class="rc-full-width" placeholder="内容"></textarea>
+                <button id='id-button-send' class="rc-full-width" type='button'>发送消息</button>
+            </form>
+        </div>
+    </div>
+ </body>
+</html>
